@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "fERekjicIVOPeEQ-e",
+  });
+})();
+</script>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">PearlOluchi</a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;" >About</a>
+            <a href="#services" style="--i:3;" >Services</a>
+            <a href="#portfolio" style="--i:4;" >Portfolio</a>
+            <a href="#contact" style="--i:5;" >Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 class="op">Hello, It's Me</h3>
+                <h1>Oluchukwu Ogbaje</h1>
+                <h3>And I'm a <span>Smart Professional Web Developer with Python</span></h3>
+                <p>I will provide you the best website <br> which you dream of </p>
+                 <div class="social-media">
+                    <a href="https://github.com/Fa-vour"><i class="fa fa-github"></i></a>
+                    <a href="https://wa.me/08172644182"><i class="fa fa-whatsapp"></i></a>
+                    <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                    <a href="https://www.linkedin.com/in/favour-oluchi-b35994234"><i class="fa fa-linkedin"></i></a>
+                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
+                <!-- <a href="#" id="btn">Download CV</a> -->
+        </div>
+
+        <div class="home-img">
+            <img src="/images/jeantop.png" alt="" width="250">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/Me.jpg" alt="" width="200px">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3><i class="fa fa-code"></i> Web Development</h3>
+            <p>I am enthusiastic, self-motivated, reliable, responsible, and hard-working. <br> I am a mature team worker and adaptable to all challenging situations. <br> I work well both in a team environment as well as using my initiative.
+            <br><br><br>I possess a deep understanding of the React and Jquery. My expertise extends to HTML, CSS, and JavaScript, React Native, Bootstrap, Python and so on allowing me to build responsive and visually appealing user interfaces.</p>
+            <!-- <div id="btn"><a href="#">Read More</a></div> -->
+        </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="row services-container">
+        <div class="col-md-3 services-box">
+            <i class="fa fa-code"></i>
+            <h3>Web Development</h3> <br>
+            <p>High-quality development of sites at the professional level.</p>
+            <!-- <div id="btn"><a href="#">Read More</a></div> -->
+            </div>
+
+            <div class=" col-md-3 services-box" id="svb">
+                <i class="fa fa-terminal"></i>
+                <h3>Rest API'S</h3> <br>
+                <p>We create the best "web services" in HTTP requests, which provide data between client and server applications.</p>
+                <!-- <div id="btn"><a href="#">Read More</a></div> -->
+                </div>
+
+                <div class="col-md-3 services-box">
+                    <i class="fa fa-globe"></i>
+                    <h3>Web Design</h3> <br>
+                    <p>We bring high quality of website designs at professional level.</p>
+                    <!-- <div id="btn"><a href="#">Read More</a></div> -->
+                    </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="container-fluid portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/images/friend.png" alt="" height="210px">
+                <div class="portfolio-layer">
+                    <h4>My First Portfolio</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/Screenshot 2023-11-13 125551.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Lighten Shop</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/Screenshot 2023-11-13 130117.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Rest API's</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/prioriservconsult.com.png" alt="" height="210px">
+                <div class="portfolio-layer">
+                    <h4>Prioriserv</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#prioriservconsult.com"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/excellent-baby.png" alt="" height="210px">
+                <div class="portfolio-layer">
+                    <h4>Excellent Baby</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/jenny's.png" alt="" height="210px">
+                <div class="portfolio-layer">
+                    <h4>Jenny's Bite</h4>
+                    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+                    <a href="#"><i class="fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2> <br>
+        <div class="class"><h2>Call <span>08131695311</span>. Click to send mail: <a href="mailto:favouroluchi33@gmail.com">favouroluchi33@gmail.com</a></h2> </div>
+        <form id="form" action="">
+         <div class="input-box">
+             <input type="text" id="name" name="name" placeholder="Full Name" required>
+             <input type="email" id="email" name="email" placeholder="Email Address" required> <br>
+         </div>
+         <div class="input-box">
+             <input type="number" id="number" name="number" placeholder="Mobile Number">
+             <input type="text" id="email-subject" name="email-subject" placeholder="Email Subject" required>
+         </div>
+         <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea> <br> 
+         <input type="submit" value="Send Message" class="btn" onclick="emailSend()">
+        </form>
+     </section>
+ 
+     <footer class="footer">
+         <div class="footer-text">
+             <p>Copyright<i class="fa fa-copyright"></i>2023 by Oluchukwu | All Rights Reserved.|</p>
+         </div>
+         <footer class="iconTop">
+             <a href="#home"><i class="fa fa-arrow-up"></i></a>
+         </footer>
+     </footer>
+
+     <!-- Scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+ 
+     <script src="/js/index.js"></script>
+ 
+</body>
+</html>
