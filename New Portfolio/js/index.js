@@ -81,8 +81,8 @@ function emailSend(){
     let parms = {
       name : document.getElementById("name").value,
       email : document.getElementById("email").value,
-      number: document.getElementById("number").value,
-      subject : document.getElementById("email-subject").value,
+      // number: document.getElementById("number").value,
+      // subject : document.getElementById("email-subject").value,
       message : document.getElementById("message").value,
     }
   
